@@ -43,13 +43,13 @@ public class Proximity : MonoBehaviour
             // my avatars position distance to the portraits position
             dist = Vector3.Distance(transform.position, other.position);
             print("Distance to player: " + dist);
-            if(dist < 4) {
+            if(dist < 6) {
                 myTitle.text = newTitle;
                 myAuthor.text = newAuthor;
                 myDesc.text = newDesc;
                 check = true;
             } // if player distance to portrait is > thresh, then clear text
-            if(dist > 4 && check == true) {
+            if(dist > 6 && check == true) {
                 Start();
             }
         }

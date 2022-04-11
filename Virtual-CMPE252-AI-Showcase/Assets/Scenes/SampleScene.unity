@@ -944,6 +944,7 @@ GameObject:
   - component: {fileID: 885817481}
   - component: {fileID: 885817480}
   - component: {fileID: 885817479}
+  - component: {fileID: 885817483}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1028,6 +1029,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+--- !u!114 &885817483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885817478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020023527f2b57a4b91edd9a0a297971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newTitle: Colon Cancer Stages
+  newAuthor: MayoClinic CC Chatbot
+  newDesc: Colon cancer stages indicated by roman numerals range from 0 to IV with
+    lowest stage indicating cancer is limited to the lining of the inside of the
+    colon. By stage IV, the cancer is considered advanced and has spread to other
+    areas of the body.
 --- !u!1001 &1101200827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1206,6 +1225,10 @@ PrefabInstance:
     - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500, type: 3}
       propertyPath: m_Name
       value: Super First Person Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32fce1012f8c24c43af86f00f457f500, type: 3}
